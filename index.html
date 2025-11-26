@@ -19,6 +19,7 @@
             --font-size-h1: 2.5rem;
             --font-size-h2: 1.8rem;
             --font-size-h3: 1.3rem;
+            --font-size-statement: 1.4rem;
 
             --spacing-xs: 0.5rem;
             --spacing-sm: 1rem;
@@ -116,40 +117,46 @@
             border-radius: var(--border-radius);
             box-shadow: 0 0 20px var(--shadow-color);
         }
+
+        .subtitle {
+            font-size: var(--font-size-h3);
+            color: var(--text-color);
+            margin-bottom: var(--spacing-xl);
+            font-style: italic;
+        }
+
+        .statement {
+            font-size: var(--font-size-statement);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            background-color: var(--card-bg);
+            border-left: 4px solid var(--accent-color);
+            border-radius: var(--border-radius);
+            box-shadow: 0 0 15px var(--shadow-color);
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Project Overview</h1>
-        <h1>oh yeah,</h1>
+        <h1>Hvordan KI påvirker samfunnet?</h1>
+        <p class="subtitle">for oss som utviklerere, markedsførere og driftsteknikere</p>
 
-        <div class="card">
-            <h2>About</h2>
-            <p>This is a simple project overview page demonstrating the use of CSS variables for all styling settings.</p>
-        </div>
+        <p class="statement">
+            KI kan lett gjøre tekst og saker falskt, og på den måten påvirker mennesker. Det blir veldig vanskelig å vite hva som er sant.
+        </p>
 
-        <div class="card">
-            <h2>Features</h2>
-            <ul>
-                <li>Clean and minimal design</li>
-                <li>Fully customizable through CSS variables</li>
-                <li>Responsive layout</li>
-                <li>Easy to maintain and extend</li>
-            </ul>
-        </div>
+        <p class="statement">
+            For utviklere blir det kanskje vanskeligere og vanskeligere å få jobb. Det kan på en måte enable de som ikke har kunnskap, som tar jobber fra de som faktisk har kunnskap. Du trenger ikke å tenke mye med KI. Man blir dummere og dummere.
+        </p>
 
-        <div class="card">
-            <h2>Getting Started</h2>
-            <p>Edit the CSS variables in the <code>:root</code> selector to customize the look and feel of this page.</p>
+        <p class="statement">
+            For markedsførere kan det ta over jobber, erstatte folk og samtidig enable folk.
+        </p>
 
-            <h3>Available Variables</h3>
-            <ul>
-                <li>Colors: bg-color, text-color, heading-color, accent-color</li>
-                <li>Typography: font-family, font-size-*, line-height</li>
-                <li>Spacing: spacing-xs through spacing-xl</li>
-                <li>Layout: border-radius, max-width</li>
-            </ul>
-        </div>
+        <p class="statement">
+            Veldig mange utviklerejobber blir å forsvinne til KI. Hovedproblemet til KI er at den ikke lager noe originalt. Den kopierer bare det som allerede finnes.
+        </p>
 
         <div class="image-container">
             <img src="./Hitokiri_portrait.png" alt="">
